@@ -7,7 +7,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your backend repo
-    RUN git clone https://github.com/srithars/s207-ecomm-backend-docker.git .
+    RUN git clone https://github.com/klu2300031331/s111_backend_r1.git .
 
     RUN mvn clean package -DskipTests
 
